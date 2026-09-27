@@ -74,6 +74,12 @@ The script was used to identify candidate collaborator pairs only. The evidence
 for coordination and awareness in Chapter 8 was established manually by
 inspecting GitHub pull-request conversations, reviews, and inline comments.
 
+## GitHub API authentication
+
+The Chapter 6 and Chapter 7 scripts may request a GitHub personal access token
+at runtime to avoid the unauthenticated API rate limit. The token is used only
+for API authentication and is not stored in the scripts or repository.
+
 ## Requirements
 
 The Chapter 6 and Chapter 7 scripts require Python and the packages listed in
