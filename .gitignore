@@ -1,0 +1,17 @@
+# Repository cloned automatically by chapter8.py
+excalidraw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets / environment variables
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
